@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*common*/
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+    
+}
+
+/*colors*/
+:root{
+    --tob-header: #ff6900;
+    --tob-discount: #ff0000;
+    --tob-sustainability: #008000;
+    --tob-footer: #000000;
+}
+
+/*region reader*/
+.app_header{   
+
+    background-color: var(--tob-header);
+    padding: 1rem 0;
+
+    .taglia {
+        flex-wrap: 1;
+        ul {
+            list-style: none;
+            display: flex;
+            a{
+                color: white;
+                padding: 1rem;
+            }
+        }
+    }
+
+    .icons{
+        text-align: end;
+        color: white;
+    }
+
+    .logo{
+        flex-grow: 2;
+        text-align: center;
+    }
+}
+
+/*region main*/
+.app_main{
+    
+}
+
