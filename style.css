@@ -31,6 +31,14 @@ body {
     padding: 0.5rem;
 }
 
+/*flex*/
+.d-flex{
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
 /*colors*/
 :root {
     --tob-header: #ff6900;
@@ -138,5 +146,28 @@ body {
     padding: 0.5rem;
     z-index: 1;
 }
+}
+
+/*region footer*/
+.app_footer{
+    background-color: var(--tob-footer);
+    color: white;
+    padding: 1rem;
+    
+    .protection{
+        a{
+        text-decoration: none;
+        color:white;
+        }
+    }
+
+    i{
+        color: white;
+        gap: 2rem;
+
+    }
+
+
+
 }
 
